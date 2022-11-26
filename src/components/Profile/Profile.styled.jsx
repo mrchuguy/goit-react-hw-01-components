@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const ProfileCard = styled.div`
-  margin: 0 auto;
   width: 390px;
   background-color: #fff;
   color: #acb5be;
@@ -50,14 +49,17 @@ export const StatsItem = styled.li`
   border: 1px solid #e7ecf2;
   padding: 30px 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 `;
 
-export const Label = styled.ul`
+export const Label = styled.span`
   font-weight: 400;
   margin-bottom: 5px;
+  color: #63676a;
 `;
 
-export const Quantity = styled.ul`
+export const Quantity = styled.span`
   color: #000;
   font-weight: 700;
 `;

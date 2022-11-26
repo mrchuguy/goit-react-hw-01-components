@@ -30,4 +30,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root{
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  align-items: center;
+}
 `;
