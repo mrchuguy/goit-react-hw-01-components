@@ -36,8 +36,6 @@ export const Tag = styled.p`
   margin-bottom: 10px;
 `;
 
-export const Location = styled.p``;
-
 export const StatsList = styled.ul`
   list-style-type: none;
   display: flex;
